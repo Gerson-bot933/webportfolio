@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <style>
+ 
+        
+        html { 
+            scroll-behavior: smooth;
+        }
+
+        
+        body {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            color: #fff;
+        }
+
+       
+        section {
+            background-image: url('moon.avif'); 
+            padding: 100px 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            color: #fff;
+            background-color: transparent;
+        }
+
+
+        p {
+            font-size: 1.2;
+            color: #ddd; 
+        }
+        
+        
+        
+        .nav-container {
+            background-color: #222; 
+        }
+        .nav-container .links .link a {
+            color: #fff; 
+        }
+        
+        
+        .social-links a {
+            color: #ddd; 
+        }
+        .social-links a:hover {
+            color: #bbb; 
+        }
+        
+        .progress-bar {
+            background-color: #555; 
+            color: #fff;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Marc James <span>Gerson</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="kuroko .jpg" alt="Profile Image" class>
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey, I'm <span>Marc James Gerson</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Hello!, Welcome To My Portfolio.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/marcjames.gerson.3" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/gers.n_/" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/YourProfile" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="about">
+        <div class="about-content" data-aos="fade-up" data-aos-duration="1500">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Marc James Gerson, an aspiring creative web developer with a passion for design and coding.
+                Eager to learn new skills and improve my craft, I am dedicated to building a strong foundation in HTML, CSS, JavaScript, and beyond. 
+                I look forward to contributing meaningfully to projects that inspire and challenge me. As of now I'm still learning and improving my skills because i'm not yet that good, that's why I'm testing myself and expanding my knowledge when it comes to coding to make myself better
+            </p>
+        </div>
+    </section>
+    
+    
+
+    <section id="skills">
+        <h2 data-aos="fade-down" data-aos-duration="1500">My Skills</h2>
+        <div class="skills-content">
+            <div data-aos="fade-up" data-aos-delay="200">
+                <h3>HTML</h3>
+                <div class="progress-bar" style="width: 90%;">70%</div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="400">
+                <h3>CSS</h3>
+                <div class="progress-bar" style="width: 85%;">65%</div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="600">
+                <h3>JavaScript</h3>
+                <div class="progress-bar" style="width: 80%;">60%</div>
+            <div data-aos="fade-up" data-aos-delay="600">
+                   
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 data-aos="fade-down" data-aos-duration="1500">My Projects</h2>
+        <div class="projects-content">
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="prj1.jpg" alt="Project 1" class="project-image">
+                <div class="project-info">
+                    <h3>Grocery Inventory System</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                <img src="project2.jpg" alt="Project 2" class="project-image">
+                <div class="project-info">
+                    <h3>Cuppa Coffee: The Coffee Shop Application is a graphical user interface program developed in Python using the t-kinter library</h3>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+
+            
+            <section id="contact" class="contact">
+                <h2>Contact Me</h2>
+                <p>If you're interested in working with me or just want to say hello, feel free to reach out!</p>
+                <form action="mailto:james.7.gerson@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>           
+     
+           
+     
+        </div>
+    </section>
+    
+    <style>
+        .projects-content {
+            display: flex;
+            gap: 20px; 
+            justify-content: center; 
+            align-items: stretch;
+        }
+        .project-card {
+            flex: 1 1 30%; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.1); 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+
+   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
